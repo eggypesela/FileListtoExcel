@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "filelisttoexcel"
+version = "0.1.0"
+description = "Simple python script to get all file list in specified folder as excel file."
+authors = ["eggypesela <reginapasela@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.1.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
